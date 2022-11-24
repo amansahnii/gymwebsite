@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-height: 100%;
+    overflow: hidden;
+}
+#background img {
+    width: 100%;
+    /* background-image: url(../img/d.jpg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin-top: 0px; */
+    background-size: cover;
+}
+#secA {
+    /* width: 100%; */
+    /* max-height: 100%; */
+    display: block;
+}
+#secB{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10px;
+    align-items: center;
+}
+.a div{
+    padding: 10px;
+    margin: 10px;
+}
+.a .box h4{
+    text-align: center;
+    color: snow;
+
+}
+#navbar {
+    background-color: rgba(0, 0, 0, 0.993);    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+nav ul {
+    display: flex;
+    margin-right: 25px;
+}
+#navbar .logo img {
+    height: 60px;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+ul li {
+    padding: 30px;
+    font-size: 35px;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 25px;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    display: flex;
+    width: 93%;
+    z-index: 10;
+    height: 180px;
+    padding: 15px;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.container h5,
+h1 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 18px;
+    font-size: 35px;
+}
+section .a {
+    display: flex;
+}
+section .a h4 {
+    color: aqua;
+}
+.second{
+    /* padding: 15px; */
+    margin-left: 1058px;
+    padding: 5px;
+}
+ button{
+    padding: 40px;
+    font-size:40px;
+    background-color:black;
+    color: brown;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
